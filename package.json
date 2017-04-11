@@ -1,0 +1,20 @@
+{
+  "name": "object-list-with-dynamic-detail",
+  "version": "1.0.0",
+  "description": "List component with dynamic detailed view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jarroyo@git.dev.arroyodev.com/npm/ang/object-list-with-dynamic-detail.git"
+  },
+  "keywords": [
+    "List",
+    "Dynamic",
+    "Component"
+  ],
+  "author": "Jimmy Arroyo",
+  "license": "ISC"
+}
