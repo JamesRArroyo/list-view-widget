@@ -1,0 +1,34 @@
+<div class="container">
+
+    <!--List of items-->
+    <div class="list">
+        <h3>{{title}}</h3>
+        <input type="text" class="query" placeholder="Search" [(ngModel)]="queryString"/>
+        <ul>
+            <li *ngFor="let obj of viewModelArray | orderByPipe:primaryField | searchPipe:primaryField:queryString" (click)="setActiveRecord(obj)">
+                {{obj[primaryField]}}<br/>
+                <div *ngFor="let icon of listIcons" class="right top">
+                    <md-icon>{{icon}}</md-icon>
+                </div>
+            </li>
+            <br><br>
+        </ul>
+        <span>
+            <button *ngIf="canCreateNewItem" md-fab (click)="newRecord()">
+                <md-icon class="md-24">add</md-icon>
+            </button>
+                Total # of {{title}}: {{viewModelArray.length}}
+        </span>
+    </div>
+
+    <!--Item selected detailed view-->
+    <div class="detailed" [hidden]="!activeRecord">
+        <div #target ></div>
+    </div>
+    <div class="detailed" [hidden]="activeRecord">
+        <div *ngIf="!activeRecord" class="empty-message">
+            <h2>No Record Selected...</h2>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+$mobileThreshold: 768px;
+$fullScreenWidthThreshold: 1280px;
+
+$actionColor: #00A719;
+$infoColor: #06598B;
+$warningColor: #FF0000;
+$rushOrder: #FF9D7C;
+$yellowUnderlay: #FFE300;
+$columnHeaderOverlay: rgba(0,0,0,.12);
+$stmBlue: #0C6BA1;
+$stmRed: #A1040A;
+$stmOrange: #D43C25;
+$stmPurple: #F312F7;
+$stmPink: #D70F7B;
+$stmYellow: #EEE905;
+$stmGreen: #49BB04;
+$stmBrown: #885947;
+$stmDeepBlue: #0a4975;
+$stmDeepGreen: #3FA103;
+$stmDarkGrey: #474747;
+
+/*Variables*/
+$stmYellow: #EEE905;
+
+
+.right {
+    float: right;
+    position: relative;
+    top: 6px;
+}
+
+.top {
+    margin-top: -30px;
+    padding: 3px;
+}
+
+
+.container {
+    background: whitesmoke;
+    position: relative;
+    width: 100%;
+    box-shadow: inset 1px 1px 0 white;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.list {
+    background: #EFEFEF;
+    position: relative;
+    width: 350px;
+    padding: 15px;
+    margin: 20px 5px 5% 20px;
+    border-radius: 0;
+    border: 1px solid #c8c8c8;
+    height: 450px;
+    -webkit-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+    -moz-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+    box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+
+}
+
+
+.detailed {
+    background: #efefef;
+    position: relative;
+    width: 100%;
+    height: 514px;
+    margin: 20px 5px 0 0;
+    border: 1px solid #c8c8c8;
+    -webkit-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+    -moz-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+    box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+}
+
+.detailed .list, .detailed .detailed {
+    margin: 0 5px 0 0;
+    border: none;
+}
+
+ul {
+    margin: 0 auto;
+    //max-height: 390px;
+    //min-height: 330px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 5px 0 5px;
+    border-left: none;
+    border-right: none;
+}
+
+li {
+    list-style: none;
+    background-color: white;
+    background-image: linear-gradient(
+            90deg,
+            $stmYellow 10px,
+            #EEE 10px,
+            #EEE 11px,
+            transparent 11px);
+    padding: 10px 15px 10px 25px;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 0;
+    border: none;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
+
+}
+
+
+
+.list span {
+    display: block;
+    position: absolute;
+    min-height: 30px;
+    background-color: #0a4975;
+    color: white;
+    bottom: -35px;
+    left: -1px;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+    -moz-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+    box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+    margin-left: auto;
+}
+
+.list h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2C3E50;
+}
+
+.query {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 5px;
+    font-family: calibri light;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.list select {
+    width: 120px;
+    margin-left: 230px;
+    margin-top: -45px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    padding: 7.5px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.list select:focus, .query:focus {
+    border: 1px solid $stmYellow;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.1);
+    outline: none;
+}
+
+.empty-message {
+    color: #888888;
+    margin-top: 20%;
+    margin-left: 20%;
+
+}
+
+
+
+//.list span button{
+//    width: 100px;
+//    padding: 10px;
+//    margin: 10px;
+//    color: $stmBlue;
+//    border-radius: 0;
+//    background-color: white;
+//        -webkit-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+//        -moz-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+//        box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+//}
+.list span button{
+    color: white;
+    margin: 5px;
+    border: 1px solid #eee;
+    background: #0c6ba1 url('/../../../../assets/images/HeaderBg.png');
+        -webkit-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+        -moz-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+        box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+}
+.list span button:hover{
+    color: $stmBlue;
+    border: 1px solid $stmBlue;
+    background-color: white;
+        -webkit-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+        -moz-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+        box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+}
+
+.mat-toolbar{
+    color: white;
+    background-color: #0a4975;
+    -webkit-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+    -moz-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+    box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
+}
+
+
+
+
+
+
+@media screen and (max-width: $mobileThreshold) {
+    .container {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .list{
+        margin: 5% auto;
+    }
+
+    .detailed {
+        margin: 5% auto;
+    }
+}
