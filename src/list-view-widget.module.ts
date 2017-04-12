@@ -1,4 +1,5 @@
 import {NgModule} from '@angular/core';
+import {FilterPipeModule} from '@adev/filter-pipe';
 import {ListViewWidgetComponent} from './list-view-widget.component';
 
 
@@ -7,13 +8,14 @@ import {ListViewWidgetComponent} from './list-view-widget.component';
         ListViewWidgetComponent
     ],
     imports: [
-    // Add pipes here after they have their own npm packages
+        FilterPipeModule
     ],
     providers: [
 
     ],
     exports: [
-        ListViewWidgetComponent
+        ListViewWidgetComponent,
+
     ]
 })
 

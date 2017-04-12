@@ -18,6 +18,7 @@
   "author": "Jimmy Arroyo",
   "license": "ISC",
   "dependencies": {
+    "@adev/filter-pipe": "git+https://git.dev.arroyodev.com/npm/ang/filterPipe",
     "@angular/core": "^4.0.1"
   }
 }
