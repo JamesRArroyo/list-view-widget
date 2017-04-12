@@ -1,5 +1,5 @@
 {
-  "name": "object-list-with-dynamic-detail",
+  "name": "@adev/object-list-with-dynamic-detail",
   "version": "1.0.0",
   "description": "List component with dynamic detailed view",
   "main": "index.js",
