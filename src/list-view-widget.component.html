@@ -5,7 +5,7 @@
         <h3>{{title}}</h3>
         <input type="text" class="query" placeholder="Search" [(ngModel)]="queryString"/>
         <ul>
-            <li *ngFor="let obj of viewModelArray | orderByPipe:primaryField | searchPipe:primaryField:queryString" (click)="setActiveRecord(obj)">
+            <li *ngFor="let obj of viewModelArray" (click)="setActiveRecord(obj)">
                 {{obj[primaryField]}}<br/>
                 <div *ngFor="let icon of listIcons" class="right top">
                     <md-icon>{{icon}}</md-icon>
