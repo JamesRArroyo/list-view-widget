@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
-import {FilterPipeModule} from '@adev/filter-pipe';
-import {OrderByPipeModule} from '@adev/order-by-pipe';
+import {FilterPipe} from '@adev/filter-pipe';
+import {OrderByPipe} from '@adev/order-by-pipe';
 import {ListViewWidgetComponent} from './list-view-widget.component';
 
 
@@ -9,8 +9,8 @@ import {ListViewWidgetComponent} from './list-view-widget.component';
         ListViewWidgetComponent
     ],
     imports: [
-        FilterPipeModule,
-        OrderByPipeModule
+        FilterPipe,
+        OrderByPipe
     ],
     providers: [
 
