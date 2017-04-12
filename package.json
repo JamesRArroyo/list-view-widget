@@ -16,5 +16,8 @@
     "Component"
   ],
   "author": "Jimmy Arroyo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@angular/core": "^4.0.1"
+  }
 }
