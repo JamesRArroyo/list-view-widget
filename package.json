@@ -2,7 +2,7 @@
   "name": "@adev/object-list-with-dynamic-detail",
   "version": "1.0.0",
   "description": "List component with dynamic detailed view",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
