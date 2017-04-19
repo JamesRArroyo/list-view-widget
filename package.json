@@ -18,8 +18,6 @@
   "author": "Jimmy Arroyo",
   "license": "ISC",
   "dependencies": {
-    "@adev/filter-pipe": "git+https://git.dev.arroyodev.com/npm/ang/filterPipe",
-    "@adev/order-by-pipe": "git+https://git.dev.arroyodev.com/npm/ang/orderByPipe",
     "@angular/core": "^4.0.1",
     "@angular/forms": "^4.0.1",
     "@angular/platform-browser": "^4.0.1",
