@@ -10,11 +10,11 @@ import {SearchPipe} from './pipes/search.pipe';
 
 @NgModule({
     declarations: [
-        ListViewWidgetComponent
-    ],
-    imports: [
+        ListViewWidgetComponent,
         SearchPipe,
         OrderByPipe,
+    ],
+    imports: [
         BrowserModule,
         FormsModule,
         MaterialModule,
