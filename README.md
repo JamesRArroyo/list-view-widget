@@ -6,6 +6,10 @@ An Angular 2 Component that displays a vertical list of objects with a detailed 
 
 I found myself in multiple situations where I needed to display a list of items with a detailed view when selected. In many cases this detailed view was already written so to avoid duplicate code the detailed view creates a dynamic component on the fly.
 
+## Installation
+
+npm install git+https://github.com/JamesRArroyo/list-view-widget
+
 ## Code Example
 
 The following example sets up a basic list of users with a user component dynamically created to its right. 
