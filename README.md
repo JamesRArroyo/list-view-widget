@@ -8,7 +8,7 @@ I found myself in multiple situations where I needed to display a list of items 
 
 ## Installation
 
-npm install git+https://github.com/JamesRArroyo/list-view-widget
+```npm install git+https://github.com/JamesRArroyo/list-view-widget```
 
 ## Code Example
 
