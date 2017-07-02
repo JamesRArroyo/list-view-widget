@@ -1,6 +1,6 @@
 ## Synopsis
 
-A vertical list of items with a detailed view using a custom dynamic component.
+An Angular 2 Component that displays a vertical list of objects with a detailed view using a custom dynamic component.
 
 ## Motivation
 
