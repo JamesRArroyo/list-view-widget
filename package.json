@@ -1,5 +1,5 @@
 {
-  "name": "@abox/list-with-dynamic-view",
+  "name": "@abox/list-view-widget",
   "version": "1.0.0",
   "description": "A vertical list with a detailed view using dynamic components.",
   "main": "index.ts",
