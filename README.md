@@ -20,6 +20,8 @@ import {Component, OnInit, ViewChild} from '@angular/core';
 import {ListViewWidgetComponent} from '@abox/object-list-with-dynamic-detail';
 import {UserComponent} from '../../user/client/user.component';
 
+// Be sure to add the ListViewWidgetModule as an import in your module (the SampleModule in this case)
+
 // Sample Component
 
 @Component({
