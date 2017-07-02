@@ -1,7 +1,7 @@
 {
-  "name": "@adev/object-list-with-dynamic-detail",
+  "name": "@abox/list-with-dynamic-view",
   "version": "1.0.0",
-  "description": "List component with dynamic detailed view",
+  "description": "A vertical list with a detailed view using dynamic components.",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
