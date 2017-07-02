@@ -9,20 +9,20 @@ $warningColor: #FF0000;
 $rushOrder: #FF9D7C;
 $yellowUnderlay: #FFE300;
 $columnHeaderOverlay: rgba(0,0,0,.12);
-$stmBlue: #0C6BA1;
-$stmRed: #A1040A;
-$stmOrange: #D43C25;
-$stmPurple: #F312F7;
-$stmPink: #D70F7B;
-$stmYellow: #EEE905;
-$stmGreen: #49BB04;
-$stmBrown: #885947;
-$stmDeepBlue: #0a4975;
-$stmDeepGreen: #3FA103;
-$stmDarkGrey: #474747;
+$cBlue: #0C6BA1;
+$cRed: #A1040A;
+$cOrange: #D43C25;
+$cPurple: #F312F7;
+$cPink: #D70F7B;
+$cYellow: #EEE905;
+$cGreen: #49BB04;
+$cBrown: #885947;
+$cDeepBlue: #0a4975;
+$cDeepGreen: #3FA103;
+$cDarkGrey: #474747;
 
 /*Variables*/
-$stmYellow: #EEE905;
+$cYellow: #EEE905;
 
 
 .right {
@@ -98,7 +98,7 @@ li {
     background-color: white;
     background-image: linear-gradient(
                     90deg,
-                    $stmYellow 10px,
+                    $cYellow 10px,
                     #EEE 10px,
                     #EEE 11px,
                     transparent 11px);
@@ -172,7 +172,7 @@ li {
 }
 
 .list select:focus, .query:focus {
-    border: 1px solid $stmYellow;
+    border: 1px solid $cYellow;
     box-shadow: 0 0 10px rgba(255, 255, 0, 0.1);
     outline: none;
 }
@@ -190,7 +190,7 @@ li {
 //    width: 100px;
 //    padding: 10px;
 //    margin: 10px;
-//    color: $stmBlue;
+//    color: $cBlue;
 //    border-radius: 0;
 //    background-color: white;
 //        -webkit-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
@@ -207,8 +207,8 @@ li {
     box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
 }
 .list span button:hover{
-    color: $stmBlue;
-    border: 1px solid $stmBlue;
+    color: $cBlue;
+    border: 1px solid $cBlue;
     background-color: white;
     -webkit-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
     -moz-box-shadow: inset 0 0 47px 1px rgba(0,0,0,0.21);
